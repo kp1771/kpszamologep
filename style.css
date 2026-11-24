@@ -1,0 +1,60 @@
+
+body {
+    background-color: #e8eaed;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.szamologep {
+    background-color: white;
+    width: 340px;
+    padding: 20px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    text-align: center;
+}
+
+#kijelzo {
+    width: 100%;
+    box-sizing: border-box;
+    height: 60px;
+    font-size: 32px;
+    text-align: right;
+    padding: 10px;
+    background-color: #dcdde0;
+    margin-bottom: 15px;
+}
+
+.gombok {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    height: 60px;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    background-color: #dcdde0;
+}
+
+.muveleti {
+    background-color:gray;
+}
+
+
+.torles {
+    background-color: red;
+}
+
+
+.egyenlo {
+    background-color: black;
+    color: white;
+}
